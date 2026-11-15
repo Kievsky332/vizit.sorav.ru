@@ -1,0 +1,75 @@
+body{
+    background-color: #22242A;
+    color: white;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    flex-direction: row;
+    font-size: 42px;
+    flex-wrap: wrap;
+}
+#contact{
+    background-color: #2A2D35;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+a{
+  text-decoration: none;
+  color: rgb(219, 207, 207);
+  font-family:'Times New Roman', Times, serif;
+  word-break: break-all;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  margin-right: 13px;
+  border-radius: 24px;
+}
+button{
+    font-size: 42px;
+    border-radius: 24px;
+    background-color: #10B981;
+    padding: 5px 150px;
+}
+h1{
+    margin: 5px 0;
+    font-size: 1em;
+}
+.contact-div{
+    text-align: left;
+    margin: 0 40px 0 20px
+}
+#vizitka{
+    margin: 20px 0 ;
+    animation: wiggle 2s ease-in-out infinite;
+    width: 50vw;
+}
+#vizit{
+    display: flex;
+    flex-direction: column;
+}
+@keyframes wiggle {
+  0% {
+    
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@media (max-width: 768px) {
+  #contact{
+    width: 100vw;
+  }
+}
+
